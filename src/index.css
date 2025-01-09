@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Protest+Strike&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right, white, #f8f1e9);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.app {
+  width: 80%;
+  margin: auto;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
